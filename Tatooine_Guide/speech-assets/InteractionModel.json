@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "name": "AboutIntent",
+      "samples": [
+        "about",
+        "tell me about this place"
+      ],
+      "slots": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "AttractionIntent",
+      "samples": [
+        "recommend an attraction",
+        "recommend an attraction within {distance} miles",
+        "give me an activity",
+        "give me an activity within {distance} miles"
+      ],
+      "slots": [
+        {
+          "name": "distance",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "GoOutIntent",
+      "samples": [
+        "go out",
+        "go outside",
+        "lets go out"
+      ],
+      "slots": []
+    },
+    {
+      "name": "PeopleIntent",
+      "samples": [
+        "people"
+      ],
+      "slots": []
+    }
+  ]
+}
